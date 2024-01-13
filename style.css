@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+    display: flex;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    top: 0;
+    position: sticky;
+    color: rgb(96, 92, 92);
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 0 10px  rgba(186, 186, 180, 0.956);
+    
+   
+}
+
+.navbar img{
+    margin-top: -10px;
+    width: 55px;
+    height: 55px;
+}
+.navbar .main{
+    margin: 30px;
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+.navbar .main li a{
+    text-decoration: none;
+    color: rgb(96, 92, 92);
+}
+.navbar .search{
+
+    margin:0px 70px ;
+    width: 350px;
+    height: 35px;
+    
+    background-color: rgb(231, 233, 233);
+}
+.navbar .search button {
+    border: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    background-color: rgb(231, 233, 233);
+    cursor: pointer;
+}
+.navbar .search input{
+    
+    border: 0;
+    outline: 0;
+    width: 312px;
+    height: 30px;
+    background-color: rgb(231, 233, 233);
+}
+.navbar .pro{
+    display: flex;
+    gap: 20px;
+    font-size: small;
+    text-align: center;
+    cursor: pointer;
+
+}
+.box1 h1{
+    color: rgb(97, 94, 94);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    font-size: 28px;
+    margin:80px 0;
+
+
+}
+.box1 .page1 {
+
+    margin:80px 0;
+    color: rgb(74, 72, 72);
+    width: 1320px;
+    height: 300px;
+ 
+    display: grid;
+    grid-template-columns: repeat(6,220px);
+}
+.box1 .page1 .box{
+    width: 220px;
+    height: 300px;
+    text-align: center;
+    color: black;
+
+}
+.box1 .page1 .box .img{
+    width: 220px;
+    height: 200px;
+    cursor: pointer;
+
+}
+.box1 .page1 .box .brand{
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+
+}
+.box2 h1{
+    color: rgb(97, 94, 94);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    font-size: 28px;
+    margin: 80px 0;
+
+
+}
+.box2 .page2 {
+
+    margin:80px 0;
+    color: rgb(74, 72, 72);
+    width: 1320px;
+    height: 300px;
+   
+    display: grid;
+    grid-template-columns: repeat(6,220px);
+}
+.box2 .page2 .box{
+    width: 220px;
+    height: 300px;
+    text-align: center;
+    color: black;
+
+}
+.box2 .page2 .box .img{
+    cursor: pointer;
+    width: 220px;
+    height: 250px;
+
+}
+.box3 h1{
+    color: rgb(97, 94, 94);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    font-size: 28px;
+    margin: 80px 0;
+}
+.box3 .page3 {
+
+    margin-top: 80px;
+    
+    color: rgb(74, 72, 72);
+    width: 1300px;
+    height:1580px;
+    gap: 40px;
+    cursor: pointer;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(6,180px);
+    
+}
+.box3 .page3 .box{
+    
+    width: 180px;
+    height: 250px;
+    text-align: center;
+    color: black;
+   
+
+}
+.box3 .page3 .box .area{
+    margin-top:-50px ;
+    background:linear-gradient(45deg , rgb(159, 5, 2) 10%, rgb(228, 56, 13) 40%);
+    color: rgb(240, 236, 236);
+    line-height: 30px;
+    opacity: 0.9;
+    cursor: pointer;
+    
+}
+.box3 .page3 .box img{
+    width: 180px;
+    height: 250px;
+    text-align: center;
+    margin-bottom:-50px ;
+   
+    
+}
+.footer .foot .box4{
+    margin: 30px;
+    display: flex;
+    gap: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    
+    
+    
+}
+.footer .foot .box4 ul{
+    list-style: none;
+
+}
+.footer .foot .box4 ul h6{
+    margin-bottom: 20px;
+}
+.footer .foot .box4 ul li a{
+    text-decoration: none;
+    color: #7f7b7b;
+
+}
+.footer #h{
+    margin-left: 100px;
+}
+
+.footer .foot .box4 .box5 img{
+    width: 150px;
+    height: 40px;
+}
+
+.footer .p{
+    margin: 100px;
+    
+}
+.footer .box7{
+    
+    display: flex;
+    color: #7f7b7b;
+  
+
+}
+.footer .box8{
+   display: flex;
+   justify-content: space-between;
+   margin:40px 100px ;
+   color: #7f7b7b;
+   
+
+
+    
+}
+.footer .box8 .box9{
+    line-height: 25px;
+     
+ }
+
+
+
+
+
+
+
